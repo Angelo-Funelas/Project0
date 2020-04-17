@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/*Fonts for the top section*/
+body {
+background-image: url(bg.jpg);
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.hl {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+  text-decoration: none;
+  color: lime;
+}
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	text-align: center;
+	color: white;
+	font-size: 100px;
+	font-weight: bolder;
+	opacity: 100%;
+}
+
+.BD {
+	text-align: left;
+	color: white;
+	font-size: 25px;
+	font-family: calibri;
+}
+
+iframe {
+	width: 80%;
+	height: 500px;
+}
+
+.row{
+	background-color: white;
+}
