@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 /*Fonts for the top section*/
 
+$SM: 1%;
+/*Variables*/
 body {
 background-image: url(bg.jpg);
 }
@@ -156,3 +158,4 @@ img:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: cyan; 
+	
