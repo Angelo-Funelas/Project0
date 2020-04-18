@@ -20,6 +20,10 @@ background-image: url(bg.jpg);
   float: right;
 }
 
+ol li {
+margin: 5%;
+}
+
 li a {
   display: block;
   color: white;
@@ -30,7 +34,7 @@ li a {
 li a:hover {
   background-color: #111;
   text-decoration: none;
-  color: lime;
+  color: cyan;
 }
 
 h1 {
@@ -39,10 +43,10 @@ h1 {
 	color: white;
 	font-size: 100px;
 	font-weight: bolder;
-	opacity: 100%;
 }
 
 .BD {
+  margin: 5%;
 	text-align: left;
 	color: white;
 	font-size: 25px;
@@ -72,7 +76,6 @@ iframe {
 }
 
 .bold, .feedback {
-  opacity: 100%;
   font-size: 150%;
   background-color: gray;
   opacity: 80%;
@@ -83,6 +86,31 @@ iframe {
   border-collapse: collapse;
 }
 
+%whyus {
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+}
+
+.wu1 {
+@extend %whyus;
+background-color: lime;
+}
+
+.wu2 {
+@extend %whyus;
+background-color: cyan;
+}
+
+.wu3 {
+@extend %whyus;
+background-color: red;
+}
+
 .feedback {
   text-align: center;
 }
@@ -91,21 +119,23 @@ iframe {
 margin: 50px;
 }
 
-#feedstyle {
-  margin: 1%;
+form {
+background-color: lightgray;
+input[name="feedback"] {
+  margin: $SM;
   padding: 50px;
 }
 
-#namestyle {
+input[name="Name"] {
   padding: 1%;
-}
+}}
 
 #dpstyle {
-  margin: 1%
+  margin: $SM;
 }
 
 #substyle {
-  margin: 1%
+  margin: $SM;
 }
 
 img:hover { 
@@ -120,7 +150,7 @@ img:hover {
 }
 
 .apro {
-  margin: 1%
+  margin: $SM;
   width: 50%;
 }
 
@@ -158,3 +188,4 @@ img:hover {
 
 ::-webkit-scrollbar-thumb:hover {
   background: cyan; 
+}
