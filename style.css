@@ -44,8 +44,8 @@ h1 {
   font-weight: bolder;
 }
 
-.BD {
-  margin: 5%;
+.BD li {
+  margin: 1%;
   text-align: left;
   color: white;
   font-size: 25px;
